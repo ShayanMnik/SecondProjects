@@ -1,0 +1,97 @@
+html{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+.header-nav{
+    background-color: rgb(226, 39, 86);
+    width: 100%;
+
+}
+.header-logo{
+    width: 30px;
+    height: 30px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 50px 0 50px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 50px;
+    gap: 20px;
+}
+.left-div{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    height: 500px;
+    padding: 60px 30px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.right-div{
+    width: 80%;
+    height: inherit;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.buy-btn:hover{
+    background-color: rgb(128, 23, 49);
+}
+/* ================ */
+.carousel {  
+    position: relative;  
+    overflow: hidden;  
+    width: 100%;  
+    max-width: 600px;  
+    margin: auto;  
+    border-radius: 30px;
+}  
+.carousel-inner {  
+    display: flex;  
+    transition: transform 0.5s ease;  
+}  
+.carousel-item {  
+    min-width: 100%;  
+    box-sizing: border-box;  
+}  
+.carousel img {  
+    width: 100%;  
+    display: block;  
+}  
+.carousel-controls {  
+    position: absolute;  
+    top: 50%;  
+    width: 100%;  
+    display: flex;  
+    justify-content: space-between;  
+    transform: translateY(-50%);  
+}  
+.carousel-button {  
+    background-color: rgba(255, 255, 255, 0.7);  
+    border: none;  
+    padding: 10px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+.carousel-button:hover {  
+    background-color: rgba(255, 255, 255, 1);  
+}
+/* ================ */
